@@ -1,0 +1,12 @@
+{
+  "name": "Bitaxe CYD Monitor",
+  "version": "1.0",
+  "builds": [
+    {
+      "chipFamily": "ESP32",
+      "parts": [
+        { "path": "firmware.bin", "offset": 4096 }
+      ]
+    }
+  ]
+}
